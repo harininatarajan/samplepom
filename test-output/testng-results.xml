@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="6" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="105139" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:58:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="105139" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:58:08Z">
+      <class name="testcases.Addemp_Testcase">
+        <test-method status="PASS" signature="startApp()[pri:0, instance:testcases.Addemp_Testcase@77cd7a0]" name="startApp" is-config="true" duration-ms="1" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:testcases.Login_TestCase@548e7350]" name="startApp" is-config="true" duration-ms="0" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:testcases.Pimemp_Testcase@4667ae56]" name="startApp" is-config="true" duration-ms="1" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:testcases.Pim_Testcase@1a968a59]" name="startApp" is-config="true" duration-ms="0" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="report()[pri:0, instance:testcases.Addemp_Testcase@77cd7a0]" name="report" is-config="true" duration-ms="1" started-at="2020-07-16T08:57:34Z" finished-at="2020-07-16T08:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="intialize_driver()[pri:0, instance:testcases.Addemp_Testcase@77cd7a0]" name="intialize_driver" is-config="true" duration-ms="9888" started-at="2020-07-16T08:57:34Z" finished-at="2020-07-16T08:57:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize_driver -->
+        <test-method status="PASS" signature="Addemp_HRM(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Addemp_Testcase@77cd7a0]" name="Addemp_HRM" duration-ms="22788" started-at="2020-07-16T08:57:44Z" data-provider="fetchData" finished-at="2020-07-16T08:58:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[harinisn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[harinisena]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[harini]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[natarajan]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[swaminathan]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Addemp_HRM -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Addemp_Testcase@77cd7a0]" name="teardown" is-config="true" duration-ms="424" started-at="2020-07-16T08:58:07Z" finished-at="2020-07-16T08:58:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Addemp_Testcase -->
+      <class name="testcases.Pimemp_Testcase">
+        <test-method status="PASS" signature="report()[pri:0, instance:testcases.Pimemp_Testcase@4667ae56]" name="report" is-config="true" duration-ms="0" started-at="2020-07-16T08:57:07Z" finished-at="2020-07-16T08:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="intialize_driver()[pri:0, instance:testcases.Pimemp_Testcase@4667ae56]" name="intialize_driver" is-config="true" duration-ms="9640" started-at="2020-07-16T08:57:07Z" finished-at="2020-07-16T08:57:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize_driver -->
+        <test-method status="PASS" signature="Pimemp_HRM(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.Pimemp_Testcase@4667ae56]" name="Pimemp_HRM" duration-ms="17092" started-at="2020-07-16T08:57:17Z" data-provider="fetchData" finished-at="2020-07-16T08:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[harsena]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[har123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[haraaaaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pimemp_HRM -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Pimemp_Testcase@4667ae56]" name="teardown" is-config="true" duration-ms="322" started-at="2020-07-16T08:57:34Z" finished-at="2020-07-16T08:57:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Pimemp_Testcase -->
+      <class name="testcases.Pim_Testcase">
+        <test-method status="PASS" signature="report()[pri:0, instance:testcases.Pim_Testcase@1a968a59]" name="report" is-config="true" duration-ms="1" started-at="2020-07-16T08:56:49Z" finished-at="2020-07-16T08:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="intialize_driver()[pri:0, instance:testcases.Pim_Testcase@1a968a59]" name="intialize_driver" is-config="true" duration-ms="9852" started-at="2020-07-16T08:56:49Z" finished-at="2020-07-16T08:56:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize_driver -->
+        <test-method status="PASS" signature="Pim_HRM(java.lang.String, java.lang.String)[pri:0, instance:testcases.Pim_Testcase@1a968a59]" name="Pim_HRM" duration-ms="8072" started-at="2020-07-16T08:56:59Z" data-provider="fetchData" finished-at="2020-07-16T08:57:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Pim_HRM -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Pim_Testcase@1a968a59]" name="teardown" is-config="true" duration-ms="314" started-at="2020-07-16T08:57:07Z" finished-at="2020-07-16T08:57:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Pim_Testcase -->
+      <class name="testcases.Login_TestCase">
+        <test-method status="PASS" signature="startReport()[pri:0, instance:testcases.Login_TestCase@548e7350]" name="startReport" is-config="true" duration-ms="557" started-at="2020-07-16T08:56:22Z" finished-at="2020-07-16T08:56:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="report()[pri:0, instance:testcases.Login_TestCase@548e7350]" name="report" is-config="true" duration-ms="34" started-at="2020-07-16T08:56:23Z" finished-at="2020-07-16T08:56:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- report -->
+        <test-method status="PASS" signature="intialize_driver()[pri:0, instance:testcases.Login_TestCase@548e7350]" name="intialize_driver" is-config="true" duration-ms="16797" started-at="2020-07-16T08:56:25Z" finished-at="2020-07-16T08:56:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intialize_driver -->
+        <test-method status="PASS" signature="login_HRM(java.lang.String, java.lang.String)[pri:0, instance:testcases.Login_TestCase@548e7350]" name="login_HRM" duration-ms="6317" started-at="2020-07-16T08:56:42Z" data-provider="fetchData" finished-at="2020-07-16T08:56:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_HRM -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:testcases.Login_TestCase@548e7350]" name="teardown" is-config="true" duration-ms="584" started-at="2020-07-16T08:56:48Z" finished-at="2020-07-16T08:56:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="StopReport()[pri:0, instance:testcases.Login_TestCase@548e7350]" name="StopReport" is-config="true" duration-ms="1449" started-at="2020-07-16T08:58:08Z" finished-at="2020-07-16T08:58:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StopReport -->
+      </class> <!-- testcases.Login_TestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
